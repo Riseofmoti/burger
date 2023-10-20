@@ -1,0 +1,122 @@
+html,body {
+    margin: 0;
+    padding: 0;
+font-family: 'Playfair Display', serif;
+color: white;
+}
+body {
+    background-image:url(1ddf7dbc9b47c8dab0a1456ae07ac4c6.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.all {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading {
+    width: 50%;
+    margin-left: 100px;
+}
+.con {
+    width: 50%;
+    margin-left: 600px;
+}
+.contacts {
+    text-decoration: none;
+    color: white;
+}
+.contacts:hover {
+    border-bottom: 2px solid rgb(240, 240, 240);
+
+}
+.mid {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+
+}
+.in {
+    margin: 0 -150px;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px solid white;
+    border-radius:20px;
+}
+.burger1 {
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.burger2 {
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+.burger3 {
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.mid2 {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.mmk {
+    border-radius: 100px solid white;
+    border-radius:10px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    margin: 0 -150px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top : 5px;
+    font-weight: bold;
+}
+@media (max-width:700px) {
+    .heading {
+        margin-left: 450px;
+    }
+
+    .mid {
+        flex-direction: column;
+    }
+    body {
+        background-image: none;
+        background-color: black;
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+    .mmk {
+        margin:0 10px;
+    }
+    .burger {
+        margin: 10px;
+    }
+}
+@media(max-width:376px) {
+    .heading {
+        margin-left: 500px;
+    }
+}
